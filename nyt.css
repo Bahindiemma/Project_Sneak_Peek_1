@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 5px;
+}
+
+img {
+    background-repeat: no-repeat;
+}
+
+#home-cap {
+    margin: 0 15% 5% 15%;
+}
+
+.sec-1 h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#text {
+    margin-right: 26%;
+}
+
+.sec-1 img {
+    width: 70%;
+    height: auto;
+    margin: 0 15%;
+    margin-top: 20px !important;
+}
+
+
+/*
+.sec-2 {
+    width: 70%;
+    margin: 0 15%;
+}*/
+
+.paragraphs {
+    margin: 0 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    opacity: .9;
+    line-height: 30px;
+}
+
+.paragraphs p {
+    margin-bottom: 20px;
+}
+
+
+/* side div containrs for the editors*/
+
+.editor-section {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 200;
+    display: inline-block;
+}
+
+.editor img {
+    display: block;
+    width: 30%;
+}
+
+.editor p {
+    display: block;
+    width: 40%;
+    margin: 0;
+}
+
+
+/*Inflation section*/
+
+.inflation-section {
+    width: 80%;
+    margin: 5% 10%;
+}
+
+.section-theory {
+    display: flex;
+    flex-direction: flex-start;
+    width: 100%;
+}
+
+.inflation-section h2 {
+    margin: 2% 5%;
+}
+
+.inflation-section p {
+    margin: 2% 5%;
+}
+
+.inflation-theory {
+    padding: 30px;
+    width: 25%;
+    height: auto;
+}
+
+.inflation-theory img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.middle-text {
+    margin: 5% 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    opacity: .9;
+    line-height: 30px;
+}
+
+.inner-img-container {
+    width: 75%;
+    /* margin: 5% 0 5% 10%;*/
+    margin-left: 10%;
+}
+
+.part {
+    width: 80%;
+    display: flex;
+}
+
+.contained-img {
+    width: 100%;
+    margin: 10px;
+}
+
+.contained-img img {
+    width: 100%;
+    height: auto;
+}
+
+.editor-section {
+    margin: 20px 0;
+}
+
+.part h2 {
+    font-size: 18px;
+}
